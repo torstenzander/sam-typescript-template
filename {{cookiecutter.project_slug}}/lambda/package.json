@@ -1,7 +1,7 @@
 {
-  "name": "app",
+  "name": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
   "version": "1.0.0",
-  "description": "hello world sample for NodeJS",
+  "description": "",
   "main": "src/index.js",
   "author": "SAM CLI",
   "license": "MIT",
