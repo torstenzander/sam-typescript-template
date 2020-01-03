@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "author": "SAM CLI",
+  "author": "Torsten Zander",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^10.12.26",

@@ -19,3 +19,19 @@ To use in AWS SAM CLI
 ```bash
 sam init -l gh:torstenzander/sam-typescript-template
 ```
+# Usage
+
+```
+cd hello-world
+npm install
+npm run build
+cd ..
+sam local start-api
+```
+
+# Running Tests
+```
+cd hello-world
+npm install
+npm run test
+```
