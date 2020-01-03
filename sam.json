@@ -1,0 +1,4 @@
+{
+  "project_name": "My App",
+  "project_slug": "{{ sam.project_name|lower|replace(' ', '-') }}"
+}
