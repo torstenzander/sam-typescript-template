@@ -7,7 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^10.12.26",
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "aws-sdk": "*"
   },
   "scripts": {
     "prebuild": "mkdirp ../dist || true",
@@ -26,6 +27,7 @@
     "mkdirp": "^0.5.1",
     "mocha": "^5.1.1",
     "ts-node": "^8.0.2",
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3",
+    "aws-sdk-mock": "^5.0.0"
   }
 }
