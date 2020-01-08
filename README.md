@@ -22,7 +22,7 @@ sam init -l gh:torstenzander/sam-typescript-template
 # Usage
 
 ```
-cd hello-world
+cd {slug_name}}
 npm install
 npm run build
 cd ..
@@ -31,7 +31,7 @@ sam local start-api
 
 # Running Tests
 ```
-cd hello-world
+cd {slug_name}}
 npm install
 npm run test
 ```
