@@ -6,10 +6,10 @@
   "author": "Torsten Zander",
   "license": "MIT",
   "scripts": {
-    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "lint": "../node_modules/.bin/tslint -p tsconfig.json -c tslint.json",
     "clean": "",
     "prebuild": "npm run lint && npm run clean",
-    "build": "webpack",
+    "build": "../node_modules/.bin/webpack",
     "prestart": "npm run build",
     "start": "sam local start-api"
   },
