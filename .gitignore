@@ -1,2 +1,2 @@
 node_modules/
-{{cookiecutter.projec_name}}/src/package-lock.json
+{{cookiecutter.project_name}}/src/package-lock.json
