@@ -6,11 +6,11 @@
   "author": "Torsten Zander",
   "license": "MIT",
   "scripts": {
-    "lint": "../node_modules/.bin/tslint -p tsconfig.json -c tslint.json",
+    "lint": "node_modules/.bin/tslint -p tsconfig.json -c tslint.json",
     "clean": "",
     "test": "npm test \"mocha tests/**/*.spec.js\"s",
     "prebuild": "npm run lint && npm run clean",
-    "build": "../node_modules/.bin/webpack",
+    "build": "node_modules/.bin/webpack",
     "prestart": "npm run build",
     "start": "sam local start-api"
   },
