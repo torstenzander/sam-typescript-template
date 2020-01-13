@@ -1,0 +1,33 @@
+{
+  "name": "{{cookiecutter.project_name.lower().replace(' ', '-')}}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "Torsten Zander",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "clean": "",
+    "prebuild": "npm run lint && npm run clean",
+    "build": "webpack",
+    "prestart": "npm run build",
+    "start": "sam local start-api"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "*",
+    "@types/node": "^10.12.26",
+    "aws-lambda": "*",
+    "aws-sdk": "*"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.1.2",
+    "@types/node": "12.0.12",
+    "ts-loader": "6.0.4",
+    "tslint": "5.18.0",
+    "typescript": "3.5.2",
+    "webpack": "4.35.2",
+    "webpack-cli": "3.3.5"
+  }
+}

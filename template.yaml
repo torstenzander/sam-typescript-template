@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description:
+Globals:
+  Function:
+    Timeout: 3
+    Runtime: nodejs12.x
+    Tracing: Active
+
+Resources:
+  ServiceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./dist
+      Handler: main.greetings
+      Events:
+        ListPostsApi:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: GET
+
+
