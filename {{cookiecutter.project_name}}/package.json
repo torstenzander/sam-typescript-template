@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "../node_modules/.bin/tslint -p tsconfig.json -c tslint.json",
     "clean": "",
+    "test": "npm test \"mocha tests/**/*.spec.js\"s",
     "prebuild": "npm run lint && npm run clean",
     "build": "../node_modules/.bin/webpack",
     "prestart": "npm run build",
@@ -28,6 +29,7 @@
     "tslint": "5.18.0",
     "typescript": "3.5.2",
     "webpack": "4.35.2",
-    "webpack-cli": "3.3.5"
+    "webpack-cli": "3.3.5",
+    "chakram": "^1.5.0"
   }
 }
