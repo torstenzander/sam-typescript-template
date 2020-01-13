@@ -11,6 +11,7 @@
     "test": "npm test \"mocha tests/**/*.spec.js\"s",
     "prebuild": "npm run lint && npm run clean",
     "build": "node_modules/.bin/webpack",
+    "build-watch": "npm run prebuild && tsc -w --preserveWatchOutput true",
     "prestart": "npm run build",
     "start": "sam local start-api"
   },
