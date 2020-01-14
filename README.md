@@ -14,7 +14,7 @@ This is a simple starting point for SAM serverless applications with TypeScript
 ## Instructions
 To use in AWS SAM CLI
 ```bash
-sam init -l gh:torstenzander/sam-typescript-template
+sam init --location "https://bitbucket.org/savedroid/lambda-sam-typescript-template.git" 
 ```
 # Usage
 
