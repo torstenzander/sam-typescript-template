@@ -21,7 +21,7 @@ export class ApplicationError {
   }
 }
 
-export const successResponse = (statusCode: StatusCodes, result: string) =>
+export const successResponse = (statusCode: StatusCodes, result: Model) =>
   ({
     statusCode,
     headers: DEFAULT_HEADERS,
