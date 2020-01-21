@@ -4,7 +4,7 @@ export interface Model {
 
 export class Greeting implements Model {
 
-    private readonly say: string;
+    public readonly say: string;
 
     constructor(say: string) {
         this.say = say;
