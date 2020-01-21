@@ -1,12 +1,12 @@
-interface Model {
-};
+// tslint:disable-next-line:no-empty-interface
+export interface Model {
+}
 
+export class Greeting implements Model {
 
-class Greeting implements Model {
-
-    readonly say: string;
+    private readonly say: string;
 
     constructor(say: string) {
-        this.say = say
+        this.say = say;
     }
 }

@@ -1,3 +1,5 @@
+import {Model} from "./models";
+
 const DEFAULT_HEADERS = {
   'Content-Type': 'application/json'
 };

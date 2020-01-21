@@ -21,4 +21,9 @@ module.exports = {
     filename: './main.js',
     libraryTarget: 'commonjs',
   },
+  optimization: {
+    removeAvailableModules: false,
+    removeEmptyChunks: false,
+    splitChunks: false,
+  },
 };

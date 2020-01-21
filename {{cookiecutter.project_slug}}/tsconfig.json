@@ -1,17 +1,23 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
     "outDir": "../dist",
+   // "sourceMap": true,
     "strict": true,
+    "inlineSourceMap": true,
     "baseUrl": "./",
     "typeRoots": [
       "node_modules/@types"
     ],
     "types": [
-      "node"
+      "node", "jest"
     ],
     "esModuleInterop": true,
-    "inlineSourceMap": true
+    "lib": [
+      "es2017",
+      "dom"
+    ]
   }
 }
