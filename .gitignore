@@ -1,5 +1,6 @@
 node_modules/
 {{cookiecutter.project_slug}}/src/package-lock.json
-.idea/
+.idea
+dist
 
 
