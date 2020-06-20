@@ -7,14 +7,14 @@ This is a simple starting point for SAM serverless applications with TypeScript
 ├── src .                       <-- Source code for a lambda function
 │   └── handlers.ts             <-- entrypoint for handlers configure in the template.yaml
 │   └── http.ts                 <-- http basic functionality
-│   └── service.ts            <-- service
+│   └── service.ts              <-- service
 ├── template.yaml               <-- SAM template
 ```
 
 ## Instructions
 To use in AWS SAM CLI
 ```bash
-sam init --location git+ssh://git@bitbucket.org:savedroid/lambda-sam-typescript-template.git
+sam init --location git+ssh://git@github.com:torstenzander/sam-typescript-template.git
 ```
 # Usage
 
